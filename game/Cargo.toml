@@ -1,0 +1,11 @@
+[package]
+name = "game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+core = { workspace = true }
+renderer = { workspace = true }
+world = { workspace = true }
+systems = { workspace = true }
+pollster = { workspace = true }

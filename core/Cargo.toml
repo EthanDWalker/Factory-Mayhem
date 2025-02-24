@@ -1,0 +1,13 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+renderer = { workspace = true }
+systems = { workspace = true }
+world = { workspace = true }
+winit = { workspace = true }
+pollster = { workspace = true }
+env_logger = "0.11.6"
+log = "0.4.25"
