@@ -74,6 +74,7 @@ impl<'a> Core<'a> {
                         2 => world::level_2::level(self.renderer.resolution.0),
                         3 => world::level_3::level(self.renderer.resolution.0),
                         4 => world::level_4::level(self.renderer.resolution.0),
+                        5 => world::level_5::level(self.renderer.resolution.0),
                         _ => world::level_1::level(self.renderer.resolution.0),
                     };
                     self.sprites.gui.push(Sprite::new(
@@ -95,6 +96,7 @@ impl<'a> Core<'a> {
                         2 => world::level_2::level(self.renderer.resolution.0),
                         3 => world::level_3::level(self.renderer.resolution.0),
                         4 => world::level_4::level(self.renderer.resolution.0),
+                        5 => world::level_5::level(self.renderer.resolution.0),
                         _ => world::level_1::level(self.renderer.resolution.0),
                     };
                     self.reset_level = false;
